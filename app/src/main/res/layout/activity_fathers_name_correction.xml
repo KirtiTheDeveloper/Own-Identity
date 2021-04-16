@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FathersNameCorrection">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:hintTextColor="@color/hintTextColor"
+            app:boxBackgroundColor="@color/material_on_primary_disabled"
+            app:boxStrokeColor="@color/StrokeColor"
+            android:layout_margin="@dimen/margin20"
+            app:hintTextAppearance="@style/TextLabel_16"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <EditText android:id="@+id/fnc_nameoftheperson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:textSize="@dimen/text_size20"
+                android:hint="@string/fyc_nameoftheperson"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:hintTextColor="@color/hintTextColor"
+            app:boxBackgroundColor="@color/material_on_primary_disabled"
+            app:boxStrokeColor="@color/StrokeColor"
+            android:layout_margin="@dimen/margin20"
+            app:hintTextAppearance="@style/TextLabel_16"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <EditText android:id="@+id/fnc_nameold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:textSize="@dimen/text_size20"
+                android:hint="@string/fyc_old_name"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:hintTextColor="@color/hintTextColor"
+            app:boxBackgroundColor="@color/material_on_primary_disabled"
+            app:boxStrokeColor="@color/StrokeColor"
+            android:layout_margin="@dimen/margin20"
+            app:hintTextAppearance="@style/TextLabel_16"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText android:id="@+id/fnc_namenew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:textSize="@dimen/text_size20"
+                android:hint="@string/fyc_new_name"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:hintTextColor="@color/hintTextColor"
+            app:hintTextAppearance="@style/TextLabel_16"
+            app:boxBackgroundColor="@color/material_on_primary_disabled"
+            app:boxStrokeColor="@color/StrokeColor"
+            android:layout_margin="@dimen/margin20"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <EditText android:id="@+id/fnc_uploadDoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:textSize="@dimen/text_size20"
+
+                android:hint="@string/fyc_upload_doc"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button android:id="@+id/nc_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="@dimen/text_size20"
+            />
+    </LinearLayout>
+
+</LinearLayout>

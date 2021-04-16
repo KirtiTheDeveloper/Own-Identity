@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.adharcard_07_04_2020">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".KYC"></activity>
+        <activity android:name=".YoursNameCorrection" />
+        <activity android:name=".FathersNameCorrection" />
+        <activity android:name=".AddressChangeCorrection" />
+        <activity android:name=".AddDob" />
+        <activity android:name=".PhotoChangeCorrection" />
+        <activity android:name=".EmailAddressUpdate" />
+        <activity android:name=".PhoneNumberCorrection" />
+        <activity android:name=".NameCorrection" />
+        <activity android:name=".MainActivitySplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".Main5Activityfront" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main4Activity" />
+    </application>
+
+</manifest>

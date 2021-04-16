@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView android:id="@+id/tv_gvt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/adhaar_card"
+        android:text="Government of India"
+        android:layout_marginTop="22sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView android:id="@+id/tv_authority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unique Identification Authority of India"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        />
+</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" To"
+        android:layout_marginLeft="55sp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView android:id="@+id/tv_fname1"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="55sp"
+        android:layout_height="wrap_content"
+        android:hint=" FName"
+        />
+    <TextView android:id="@+id/tv_lname1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="   LName"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView android:id="@+id/tv_do"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55sp"
+            android:text=" D/O"
+            android:textStyle="bold"/>
+        <TextView android:id="@+id/tv_so"
+            android:layout_marginLeft="55sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=" S/O"
+            android:textStyle="bold"
+
+            />
+        <TextView android:id="@+id/tv_fathername1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:hint="  Father's Name"
+            />
+    </LinearLayout>
+    <TextView android:id="@+id/tv_house_no1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" house no"
+
+        android:layout_marginLeft="55sp"/>
+    <TextView android:id="@+id/tv_sector1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" sector"
+
+        android:layout_marginLeft="55sp"/>
+    <TextView android:id="@+id/tv_landmark1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" landmark"
+        android:layout_marginLeft="55sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView android:id="@+id/tv_city1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55sp"
+        android:hint=" city"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" , "
+            android:textStyle="bold"/>
+    <TextView android:id="@+id/tv_city2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="   city"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView android:id="@+id/tv_state1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55sp"
+        android:hint=" state"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textStyle="bold"/>
+
+    <TextView android:id="@+id/tv_pincode1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="  pincode"/>
+    </LinearLayout>
+    <TextView android:id="@+id/tv_ph1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55sp"
+        android:hint=" phone no"
+        />
+    <TextView android:id="@+id/tv_email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55sp"
+        android:hint="email"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GOVERNMENT OF INDIA"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="@drawable/adhaar_card"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageView android:id="@+id/iv_adhrpic"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView android:id="@+id/tv_fname2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="fname"
+            />
+        <TextView android:id="@+id/tv_lname2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="  lname"
+            />
+        </LinearLayout>
+    <TextView android:id="@+id/tv_dob2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="dob"
+        />
+
+    <TextView android:id="@+id/tv_gender1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="gender"/>
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

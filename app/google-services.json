@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "200659869791",
+    "project_id": "adharcard-07-04-2020",
+    "storage_bucket": "adharcard-07-04-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200659869791:android:a0a3b72e897b838b6c3bea",
+        "android_client_info": {
+          "package_name": "com.test.adharcard_07_04_2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200659869791-le7tc9io8vqetii3vob7r0muh89q6lp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaVb-h822DBjiRaEleKIbksuDDUIyxTZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200659869791-le7tc9io8vqetii3vob7r0muh89q6lp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

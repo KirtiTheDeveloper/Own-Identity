@@ -1,0 +1,51 @@
+<resources>
+    <!--Activity main-->
+    <string name="app_name">adharcard_07-04-2020</string>
+    <string name="spinner_title">select number</string>
+    <string name="first_name">Enter the first Name</string>
+    <string name="last_name">Enter the Last Name</string>
+    <string name="fathers_name">Enter the Fathers Name</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="pincode">Enter the Pincode</string>
+    <string name="phone_number">Enter the Phone Number</string>
+    <string name="Dob">Date Of Birth</string>
+    <string name="Male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="Sector">Sector</string>
+    <string name="house_no">House/FlatNo.</string>
+    <string name="Landmark">Landmark</string>
+    <string name="email">Email Address</string>
+    <string name="checkbox_text">I accept all the words filled are true</string>
+    <string name="Button_text">UPLOAD A PICTURE</string>
+    <string name="title_activity_address_change_correction">AddressChangeCorrection</string>
+    <!--Activity your's name correction-->
+    <string name="yc_old_name">Name Mentioned in the Aadhaar Card</string>
+    <string name="yc_new_name">Name You want to  Mentioned in the Aadhaar Card</string>
+    <string name="yc_upload_doc"></string>
+    <!--Activity father's  name correction-->
+    <string name="fyc_nameoftheperson">Name of the Person</string>
+    <string name="fyc_old_name">Fathers Name Mentioned in the Aadhaar Card</string>
+    <string name="fyc_new_name">Fathers Name You want to  Mentioned in the Aadhaar Card</string>
+    <string name="fyc_upload_doc"></string>
+    <!--Activity  kyc correction-->
+    <string name="kyc_full_name">Enter the Full Name</string>
+    <string name="kyc_fathers_name">Enter the Fathers Name</string>
+    <string name="kyc_city">City</string>
+    <string name="kyc_state">State</string>
+    <string name="kyc_pincode">Enter the Pincode</string>
+    <string name="kyc_phone_number">Enter the Phone Number</string>
+    <string name="kyc_Dob">Date Of Birth</string>
+    <string name="kyc_gender">Gender:</string>
+    <string name="kyc_Male">Male</string>
+    <string name="kyc_female">Female</string>
+    <string name="kyc_others">Others</string>
+    <string name="kyc_maritalstatus">Marital Status:</string>
+    <string name="kyc_married">Married</string>
+    <string name="kyc_unmarried">Unmarried</string>
+    <string name="kyc_Sector">Sector</string>
+    <string name="kyc_house_no">House/FlatNo.</string>
+    <string name="kyc_Landmark">Landmark</string>
+    <string name="kyc_email">Email Address</string>
+</resources>

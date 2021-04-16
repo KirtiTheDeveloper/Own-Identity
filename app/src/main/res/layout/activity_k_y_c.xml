@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KYC">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+        >
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:boxBackgroundMode="outline"
+    app:boxStrokeColor="@color/StrokeColor"
+    app:hintTextColor="@color/hintTextColor"
+    app:hintTextAppearance="@style/TextLabel_16"
+    app:boxBackgroundColor="@color/material_on_primary_disabled"
+    android:layout_margin="@dimen/margin20"
+    >
+    <EditText android:id="@+id/kyc_et_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size20"
+        android:hint="@string/kyc_full_name"
+        android:padding="@dimen/padding15"
+        />
+</com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/StrokeColor"
+            app:hintTextColor="@color/hintTextColor"
+            app:hintTextAppearance="@style/TextLabel_16"
+            app:boxBackgroundColor="@color/material_on_primary_disabled"
+            android:layout_margin="@dimen/margin20"
+            >
+            <EditText android:id="@+id/kyc_et_fathers_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size20"
+                android:hint="@string/kyc_fathers_name"
+                android:padding="@dimen/padding15"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/StrokeColor"
+            app:hintTextColor="@color/hintTextColor"
+            app:hintTextAppearance="@style/TextLabel_16"
+            app:boxBackgroundColor="@color/material_on_primary_disabled"
+            android:layout_margin="@dimen/margin20"
+            >
+
+            <EditText
+                android:id="@+id/kyc_et_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/kyc_Dob"
+                android:padding="@dimen/padding15"
+                android:textSize="@dimen/text_size20" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/StrokeColor"
+            app:hintTextColor="@color/hintTextColor"
+            app:hintTextAppearance="@style/TextLabel_16"
+            app:boxBackgroundColor="@color/material_on_primary_disabled"
+           android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <TextView
+                android:id="@+id/kyc_tv_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding5"
+                android:text="@string/kyc_gender"
+                android:textSize="@dimen/text_size20" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton android:id="@+id/kyc_rb_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kyc_Male"
+                    android:layout_marginLeft="40sp"/>
+                <RadioButton android:id="@+id/kyc_rb_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kyc_female"/>
+                <RadioButton android:id="@+id/kyc_rb_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kyc_others"/>
+            </RadioGroup>
+        </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/StrokeColor"
+                app:hintTextColor="@color/hintTextColor"
+                app:hintTextAppearance="@style/TextLabel_16"
+                app:boxBackgroundColor="@color/material_on_primary_disabled"
+                android:layout_margin="@dimen/margin20"
+                >
+                <TextView android:id="@+id/kyc_tv_maritalstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size20"
+                    android:text="@string/kyc_maritalstatus"
+                    android:padding="@dimen/padding15"
+                    />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton android:id="@+id/kyc_rb_married"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kyc_married"
+                    android:layout_marginLeft="40sp"/>
+                <RadioButton android:id="@+id/kyc_rb_unmarried"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kyc_unmarried"/>
+                <RadioButton android:id="@+id/kyc_rb_others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kyc_others"/>
+
+            </RadioGroup>
+            </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/StrokeColor"
+            app:hintTextColor="@color/hintTextColor"
+            app:hintTextAppearance="@style/TextLabel_16"
+            app:boxBackgroundColor="@color/material_on_primary_disabled"
+            android:layout_margin="@dimen/margin20"
+            >
+            <EditText android:id="@+id/kyc_tv_male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size20"
+                android:hint=""
+                android:padding="@dimen/padding15"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/StrokeColor"
+            app:hintTextColor="@color/hintTextColor"
+            app:hintTextAppearance="@style/TextLabel_16"
+            app:boxBackgroundColor="@color/material_on_primary_disabled"
+            android:layout_margin="@dimen/margin20"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size20"
+                android:hint=""
+                android:padding="@dimen/padding15"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/StrokeColor"
+            app:hintTextColor="@color/hintTextColor"
+            app:hintTextAppearance="@style/TextLabel_16"
+            app:boxBackgroundColor="@color/material_on_primary_disabled"
+            android:layout_margin="@dimen/margin20"
+            >
+            <EditText android:id="@+id/kyc_et_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size20"
+                android:hint=""
+                android:padding="@dimen/padding15"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>
